@@ -1,0 +1,53 @@
+<?php
+
+if (isset($_GET['total']) && isset($_GET['total1']) && isset($_GET['total2'])) {
+    ​​
+
+
+
+    $meses = $_GET['total'];
+
+    $anos = $_GET['total1'];
+
+    $semanas = $_GET['total2'];
+
+
+
+    $ano < - 365;
+
+
+
+    $mes < - 30.417;
+
+
+
+    $semana < - 7;
+
+
+
+    if ($n > 0) {
+        ​​
+
+
+
+        $anos < - $n / $ano;
+    }​​else {
+        ​​
+
+
+
+        $meses < - $n / $mes;
+    }​​
+
+    $semanas < - $n / $semana;
+
+
+
+    diass < - $n;
+
+
+
+    $n = "Dada la cantidad de dias ingresados se tiene";
+
+    $n = " No se ha ingresado ningun Dia";
+}​​
